@@ -1,0 +1,39 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# === Jupyter Notebooks ===
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+# Zapisywanie stanu notebooków (opcjonalne, ale zalecane)
+*.ipynb_checkpoints
+
+# === Dane i Kaggle (Kluczowe!) ===
+*.csv
+*.zip
+*.tar.gz
+*.parquet
+*.json
+!kaggle.json # Ignoruj wszystkie jsony, zwłaszcza klucze API, z wyjątkiem... (warto zabezpieczyć)
+**/data/
+**/datasets/
+
+# === Systemowe (Ubuntu / Linux) ===
+.DS_Store
+.directory
+.Trash-*
+*.swp
+*~
+
+# === Modele ML (Wielkie pliki binarne) ===
+*.pkl
+*.pickle
+*.bst
+*.model
+*.h5
