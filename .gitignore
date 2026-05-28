@@ -21,8 +21,6 @@ env/
 *.parquet
 *.json
 !kaggle.json # Ignoruj wszystkie jsony, zwłaszcza klucze API, z wyjątkiem... (warto zabezpieczyć)
-**/data/
-**/datasets/
 
 # === Systemowe (Ubuntu / Linux) ===
 .DS_Store
